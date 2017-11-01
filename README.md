@@ -6,9 +6,12 @@ Second, download the R source code into your R working directory.
 Finally, execute R source code to generate tidy data file.
 
 ## Data description
-The code combined a training dataset and a test dataset involving sensor signals from smartphones for specific physical activitie 
-(walking, standing, laying, etc.), and extracted partial variables
-to create another dataset with the averages of each variable for each activity.
+The variables in the data X are sensor signals measured with waist-mounted smartphone from 30 subjects.
+The variable in the data Y indicates activity type the subjects performed during recording.
+
+## Code explanation
+The code combined training dataset and test dataset, and extracted partial variables to create another dataset with the averages of 
+each variable for each activity.
 
 ## New dataset
 The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average 
